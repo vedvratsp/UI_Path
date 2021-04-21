@@ -1,10 +1,11 @@
 {
-  "name": "RPAProject",
-  "description": "RPA Project - Invoice Process (Team 7)",
+  "name": "NewRecording",
+  "description": "Recording process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.2-preview]",
     "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[21.2.1-preview]",
     "UiPath.UIAutomation.Activities": "[21.2.0-preview]"
   },
@@ -43,7 +44,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e3d5f24b-dcc1-40e4-ae06-49c93d87334c",
+      "uniqueId": "1b65e590-5d46-4eff-a2a2-e9df00fe96a7",
       "input": [],
       "output": []
     }
