@@ -1,10 +1,11 @@
 {
-  "name": "Case Study Project",
-  "description": "Blank Process",
+  "name": "NewRecording",
+  "description": "Recording process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.2-preview]",
     "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[21.2.1-preview]",
     "UiPath.UIAutomation.Activities": "[21.2.0-preview]"
   },
@@ -43,7 +44,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "8648d49b-aad7-4d22-aeb6-154b80124abc",
+      "uniqueId": "1b65e590-5d46-4eff-a2a2-e9df00fe96a7",
       "input": [],
       "output": []
     }
