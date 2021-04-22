@@ -1,1 +1,0 @@
-(window.odspNextWebpackJsonp=window.odspNextWebpackJsonp||[]).push([["93"],{"4254":function(e,t,n){"use strict";n.r(t);n.d(t,"CreateClassicColumnAction",function(){return s});var r=n(158),i=n(1658),s=Object(i.e)(function(e){var t=e.consume(r.e);return new(e.injected(t.CreateColumnAction))({fieldType:null})})}}]);
