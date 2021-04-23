@@ -121,13 +121,13 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="876.8,3296.8" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[Directory.GetFiles(&quot;C:\Users\Library\Documents\UiPath\RPAProject\Invoices&quot;)]">
+        <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="876.8,3336.8" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[Directory.GetFiles(&quot;C:\Users\Library\Documents\UiPath\RPAProject\Invoices&quot;)]">
           <ui:ForEach.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="file" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="841.6,3162.4" sap2010:WorkflowViewState.IdRef="Sequence_70">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="841.6,3202.4" sap2010:WorkflowViewState.IdRef="Sequence_70">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="DataOut" />
                 </Sequence.Variables>
@@ -395,15 +395,15 @@
                     </ActivityAction>
                   </ui:WindowScope.Body>
                 </ui:WindowScope>
-                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="800,461.6" sap2010:WorkflowViewState.IdRef="CommentOut_49">
+                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="800,501.6" sap2010:WorkflowViewState.IdRef="CommentOut_49">
                   <ui:CommentOut.Body>
-                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,383.2" sap2010:WorkflowViewState.IdRef="Sequence_93">
+                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="475.2,423.2" sap2010:WorkflowViewState.IdRef="Sequence_93">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Create Master File" sap:VirtualizedContainerService.HintSize="433.6,290.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" InstanceCachePeriod="3000" WorkbookPath="My-data.xlsx">
+                      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Create Master File" sap:VirtualizedContainerService.HintSize="433.6,330.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" InstanceCachePeriod="3000" WorkbookPath="My-data.xlsx">
                         <ui:ExcelApplicationScope.Body>
                           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                             <ActivityAction.Argument>
@@ -959,7 +959,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Files have been uploaded. Please go directly to SharePoint to view it." DisplayName="Send SMTP Mail Message" Email="arichetagen@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="Junjou93!" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Invoice: Upload Complete" To="arichetagen@gmail.com">
+                    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Files have been uploaded. Please go directly to SharePoint to view it." DisplayName="Send SMTP Mail Message" Email="arichnetflix@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="arichnetflix1!" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Invoice: Upload Complete" To="arichetagen@gmail.com">
                       <ui:SendMail.Files>
                         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                       </ui:SendMail.Files>
@@ -1010,7 +1010,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Hi,&#xD;&#xA;&#xD;&#xA;Your invoice is now ready. Please sign in to your account and make the necessary payment.&#xD;&#xA;&#xD;&#xA;Thank you.&#xD;&#xA;RPA Team 7 Inc." DisplayName="Send SMTP Mail Message" Email="arichetagen@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="Junjou93!" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Your invoice is ready!" To="[row.Item(2).ToString]">
+                                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="Hi,&#xD;&#xA;&#xD;&#xA;Your invoice is now ready. Please sign in to your account and make the necessary payment.&#xD;&#xA;&#xD;&#xA;Thank you.&#xD;&#xA;RPA Team 7 Inc." DisplayName="Send SMTP Mail Message" Email="arichnetflix@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="arichnetflix1!" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="Your invoice is ready!" To="[row.Item(2).ToString]">
                                   <ui:SendMail.Files>
                                     <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4" />
                                   </ui:SendMail.Files>
