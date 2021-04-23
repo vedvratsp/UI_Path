@@ -3,9 +3,9 @@
   "description": "Recording process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.Excel.Activities": "[2.10.3-preview]",
     "UiPath.Mail.Activities": "[1.10.2-preview]",
-    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.PDF.Activities": "[3.4.0]",
     "UiPath.System.Activities": "[21.2.1-preview]",
     "UiPath.UIAutomation.Activities": "[21.2.0-preview]"
   },
